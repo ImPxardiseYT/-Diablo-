@@ -28,22 +28,7 @@ bot.on('message', function (message){
 
 bot.on('message', msg => {
     if (msg.content === "?regle"){
-        msg.reply("Bonjour, et bienvenue sur le serveur de la team Diablo
-vous devrez passer un test pour rentrer dans la Team .
-
-Les règles sont simple :
-
-1- Avoir de l'expérience 
-2- Être cool avec ses collègues
-3- Être disponible pour les entraînements
-4- L'âge minimum est de 13 ans
-5- Etre disponible pour les compétitions
-6- Nous jouons sur pc ( Server MED )
-
-Attention : La team Diablo est une team SERIEUSE qui veut aller loin donc pas de troll .
-Si vous rejoignez nos rangs c'est pour rester .
-
-Merci.")
+        msg.reply("Allez les voirs.")
     }
     if (msg.content.match(/salut/i)) {
             msg.reply('Je suis d\'accord avec toi.')
