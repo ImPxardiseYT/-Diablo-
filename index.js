@@ -34,7 +34,7 @@ bot.on('message', msg => {
             msg.reply('Je suis d\'accord avec toi.')
     }
     if (msg.content === prefix + "site"){
-        msg.channel.send("https://alexpgm.000webhostapp.com/")
+        msg.channel.send("https://www.youtube.com/channel/UCTWaxG8eSN9zH9RfcuQpCOQ/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
 
